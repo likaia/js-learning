@@ -1,4 +1,4 @@
-# js-learning · [![npm](https://img.shields.io/badge/npm-v1.0.0-2081C1)](https://www.npmjs.com/package/js-learning) [![yarn](https://img.shields.io/badge/yarn-v1.0.0-F37E42)](https://yarnpkg.com/package/js-learning) [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/js-learning) [![](https://img.shields.io/github/issues/likaia/js-learning)](https://github.com/likaia/js-learning/issues) [![](	https://img.shields.io/github/forks/likaia/js-learning)](https://github.com/likaia/js-learning/network/members) [![](	https://img.shields.io/github/stars/likaia/js-learning)](https://github.com/likaia/js-learning/stargazers)
+# js-learning · [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/js-learning) [![](https://img.shields.io/github/issues/likaia/js-learning)](https://github.com/likaia/js-learning/issues) [![](	https://img.shields.io/github/forks/likaia/js-learning)](https://github.com/likaia/js-learning/network/members) [![](	https://img.shields.io/github/stars/likaia/js-learning)](https://github.com/likaia/js-learning/stargazers)
 《JS原理学习》系列示例代码
 
 ## 目录结构
