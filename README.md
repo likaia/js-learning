@@ -16,3 +16,6 @@
         - [x] InstanceAndPrototype.js 实例与原型对象的关系
         - [x] RewritePrototype.js 重写原型对象
   
+- [x] Currying 柯里化思想
+  - [x] learn-currying 学习柯里化
+    -[x] CurryingAndCompositionFn.js 柯里化与组合函数
