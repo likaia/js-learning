@@ -15,6 +15,7 @@
         - [x] GetInstanceProps.js 实例属性的获取顺序
         - [x] InstanceAndPrototype.js 实例与原型对象的关系
         - [x] RewritePrototype.js 重写原型对象
+  -[x] prototype.xopp 原型图图解源文件
   
 - [x] Currying 柯里化思想
   - [x] learn-currying 学习柯里化
