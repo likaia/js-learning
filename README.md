@@ -30,6 +30,7 @@
     - [x] surface-application 表层应用
       - [x] ContextStackApplication.js 上下文栈应用
       - [x] ScopeApplication.js 作用域应用
+  - [x] ClosuresAndScope.xopp 作用域和闭包图解
 
 - [x] Currying 柯里化思想
   - [x] learn-currying 学习柯里化
