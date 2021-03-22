@@ -17,6 +17,20 @@
         - [x] RewritePrototype.js 重写原型对象
   -[x] prototype.xopp 原型图图解源文件
   
+- [x] ClosuresAndScope 深入理解作用域和闭包
+  - [x] src 源码目录
+    - [x] learn-closures 学习闭包
+      - [x] js/index.js 闭包html示例js
+      - [x] ClosureExample.js 闭包示例
+      - [x] index.html 闭包html示例
+    - [x] learn-scope 学习作用域
+      - [x] ContextAndScope.js 上下文和作用域链
+      - [x] OriginalValueAndReferenceValue.js 原始值与引用值
+      - [x] VariableScope.js 变量作用域
+    - [x] surface-application 表层应用
+      - [x] ContextStackApplication.js 上下文栈应用
+      - [x] ScopeApplication.js 作用域应用
+
 - [x] Currying 柯里化思想
   - [x] learn-currying 学习柯里化
     -[x] CurryingAndCompositionFn.js 柯里化与组合函数

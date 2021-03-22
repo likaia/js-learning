@@ -43,7 +43,7 @@ function unknownSum() {
   return add;
 }
 const result1 = unknownSum()(1, 6, 7, 8)(2)(3)(4);
-console.log(result1.toString());
+console.log("result1 =", result1.toString());
 
 /**
  * 已知参数求和
