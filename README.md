@@ -35,3 +35,10 @@
 - [x] Currying 柯里化思想
   - [x] learn-currying 学习柯里化
     -[x] CurryingAndCompositionFn.js 柯里化与组合函数
+  
+- [x] DataTypeAndStackMemory 深入理解数据结构与堆栈内存
+  - [x] learn-dataType 学习数据类型
+    - [x] DataType.js 数据类型示例代码
+  - [x] learn-stackMemory 学习堆栈内存
+    - [x] StackMemory.js 堆栈内存示例代码 
+  DataTypeAndStackMemory.xopp 数据结构与堆栈内存图解
