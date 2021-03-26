@@ -42,3 +42,11 @@
   - [x] learn-stackMemory 学习堆栈内存
     - [x] StackMemory.js 堆栈内存示例代码 
   DataTypeAndStackMemory.xopp 数据结构与堆栈内存图解
+      
+- [x] EventLoop 深入理解事件循环
+  - [x] src 源码目录
+    - [x] LearnEventLoop.js 事件循环
+  
+- [x] Promise 深入理解Promise
+  - [x] src 源码目录 
+    - [x] LearnPromise.js 理解Promise示例代码
