@@ -56,8 +56,24 @@
 // obj.name = "神奇的程序员";
 // name = "大白";
 // obj = { name: "大白" };
-const obj1 = Object.freeze({ name: "大白" });
-obj1.name = "神奇的程序员";
-obj1.age = 20;
-console.log(obj1.name);
-console.log(obj1.age);
+// const obj1 = Object.freeze({ name: "大白" });
+// obj1.name = "神奇的程序员";
+// obj1.age = 20;
+// console.log(obj1.name);
+// console.log(obj1.age);
+
+var value = "global";
+
+// 例子1
+(function() {
+  console.log(value); // 报错：ReferenceError: Cannot access 'value' before initialization 临时死区(TDZ) 原因，let、const声明的变量会放到TDZ里，查找时会先从当前上下文里找从tdz里找到了value，所以它抛出啦错误
+
+  let value = "local";
+})();
+
+// 例子2
+{
+  console.log(value); // 报错，原因同上
+
+  const value = "local";
+}
