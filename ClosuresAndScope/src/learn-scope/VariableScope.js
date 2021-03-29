@@ -88,10 +88,19 @@
 //
 // funcs[0](); // a 这是因为在 for in 循环中，每次迭代不会修改已有的绑定，而是会创建一个新的绑定。
 
-var funcs = [];
-for (const i = 0; i < 10; i++) {
-  funcs[i] = function() {
-    console.log(i);
-  };
+// var funcs = [];
+// for (const i = 0; i < 10; i++) {
+//   funcs[i] = function() {
+//     console.log(i);
+//   };
+// }
+// funcs[0](); // 报错：Assignment to constant variable. 虽然每次都创建了一个新的变量，然而我们在迭代中(i++)尝试修改const声明的值
+
+var s2 = 10;
+function fn3() {
+  s2 += 10;
+  console.log(s2); // NaN 在函数上下文中找到了s2的声明，但是它是在未声明之前调用的，值为undefined，因此undefined+=10的值为NaN
+  const aa = "2";
+  var s2 = 20;
 }
-funcs[0](); // 报错：Assignment to constant variable. 虽然每次都创建了一个新的变量，然而我们在迭代中(i++)尝试修改const声明的值
+fn3();
