@@ -136,3 +136,52 @@
 //   .catch(result => {
 //     console.log(result);
 //   });
+
+// 红灯三秒亮一次，绿灯一秒亮一次，黄灯2秒亮一次；如何让三个灯不断交替重复亮灯？
+function red() {
+  console.log("red");
+}
+function green() {
+  console.log("green");
+}
+function yellow() {
+  console.log("yellow");
+}
+
+/**
+ * 亮灯函数
+ * @param timer 亮灯时间
+ * @param callback 亮灯回调函数
+ * @returns {Promise<unknown>}
+ */
+var light = function(timer, callback) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      // timer ms 后执行回调函
+      callback();
+      // 改变promise状态为fulfilled状态
+      resolve();
+    }, timer);
+  });
+};
+
+var step = function() {
+  Promise.resolve()
+    .then(() => {
+      // 3000ms后亮红灯
+      return light(3000, red);
+    })
+    .then(() => {
+      // 1000ms后亮绿灯
+      return light(1000, green);
+    })
+    .then(() => {
+      // 2000ms后亮黄灯
+      return light(2000, yellow);
+    })
+    .then(() => {
+      // 本轮执行完成，继续执行下一轮
+      step();
+    });
+};
+step();
