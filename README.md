@@ -50,3 +50,6 @@
 - [x] Promise 深入理解Promise
   - [x] src 源码目录 
     - [x] LearnPromise.js 理解Promise示例代码
+- [x] NewOperator 深入理解New操作符
+  - [x] src 源码目录
+    - [x] LearnNewOperator.js 模拟实现New操作符示例代码
